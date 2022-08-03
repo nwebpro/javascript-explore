@@ -145,11 +145,19 @@ JavaScript এ variable declare করার জন্য var কীওয়ার
     ```
 
 ## 12. parseInt, parseFloat, toFixed এইগুলা কি করে?
-- parseInt হচ্ছে পূর্ণ সংখ্যা যেমন (10, 20, 30)
+- parseInt এই function এর মাধ্যমে  string number value থেকে integer এ কনভার্ট করা যায়। 
 - parseFloat হচ্ছে দশমিক সংখ্যা যেমন (10.5, 5.5, 2.5)
 -  toFixed হচ্ছে আপনি অপারেশন একটি করলেন এবং আপনার আউটপুট এ অনেক গুলো দশমিক সহ রেজাল্ট দিচ্ছে এখন আপনি চাচ্ছেন দশমিক এর পর ২ বা ৩ টা ডিজিট আউটপুট দেখাবেন তার জন্য আপনি  toFixed ব্যবহার করতে হবে।
 - Example
     ```sh
+    var number = "10";
+    var n = parseInt(number);
+    console.log(n);
+
+    var number = "10.5";
+    var n = parseFloat(number);
+    console.log(n);
+
     var number = 50.24367844;
     var n = number.toFixed(2);
     console.log(n);
