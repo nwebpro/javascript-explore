@@ -176,3 +176,60 @@ console.log(tutorial[0]);
  ```sh
 console.log(tutorial.length);
 ```
+আপনি চাচ্ছেন আপনার array এর মধ্যে একটি ভ্যালু চেঞ্জ করতে তাহলে কিভাবে করবেন তা নিছে দেওয়া হল।
+ ```sh
+tutorial[4] = "Bootstrap";
+```
+কোন একটা উপাদানের index এর মান -1 বলতে কি বুঝায় - undefined
+
+একটা Array এর মধ্যে কোন একটা উপাদান এর মান তোমাকে দেয়া আছে এখন সেটার index তুমি কিভাবে খুঁজে বের করতে পারো  তা নিচে দেওয়া আছে।
+```sh
+tutorial = tutorial.indexOf("PHP");
+```
+কোন একটা Array এর মধ্যে লাস্ট উপাদান হিসেবে কোন উপাদান যোগ করতে চাইলে কিভাৱে যোগ করবে।
+```sh
+tutorial.push("Tailwind");
+```
+আবার Array থেকে শেষের উপাদান টা বের করে দিতে চাইলে কিভাবে বের করে দিবে।
+```sh
+tutorial.pop();
+```
+কোন একটা Array এর মধ্যে প্রথম উপাদান হিসেবে কোন উপাদান হিসেবে যোগ করতে চাইলে কিভাৱে যোগ করবে।
+```sh
+tutorial.unshift("Hello!");
+```
+আবার Array থেকে প্রথম উপাদান টা বের করে দিতে চাইলে কিভাবে বের করে দিবে।
+```sh
+tutorial.shift();
+```
+## 14. JavaScript Comparison & Logical Operators?
+- == equal to
+- === equal value and equal type
+- != not equal
+- !== not equal value or not equal type
+- greater than >
+- <	less than
+- greater than or equal to >=
+- <= less than or equal to
+- ?	ternary operator
+### Logical Operators
+- && logical and
+- || logical or
+- ! logical not
+
+### 15. তোমার কাছে ৮০০০০ হাজার টাকার বেশি হলে তুমি Mackbook কিনবে, ৬০ হাজার টাকার বেশি হলে Gaming ল্যাপটপ কিনবে, ৪০ হাজার টাকার বেশি হলে Lenovo Yoga কম্পিউটার কিনবে , ২০ হাজার টাকার বেশি হলে পুরান ল্যাপটপ কিনবে। না হয় তুমি মোবাইল দিয়ে কাজ চালাবে।
+- Example
+```sh
+var money = 30000;
+if (money > 800000){
+    console.log("I will by a Mackbook");
+}else if (money > 60000){
+    console.log("I will by a Gaming Laptop");
+}else if (money > 40000){
+    console.log("I will by a Lenovo Yoga");
+}else if (money > 20000){
+    console.log("I will by a used laptop");
+}else{
+    console.log("I will use Mobile Phone");
+}
+```
