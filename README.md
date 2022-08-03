@@ -143,9 +143,9 @@ var x = 10;x--;console.log(x);
 ```
 
 ## 12. parseInt, parseFloat, toFixed এইগুলা কি করে?
-- parseInt এই function এর মাধ্যমে  string number value থেকে integer এ কনভার্ট করা যায়। 
-- parseFloat হচ্ছে দশমিক সংখ্যা যেমন (10.5, 5.5, 2.5)
--  toFixed হচ্ছে আপনি অপারেশন একটি করলেন এবং আপনার আউটপুট এ অনেক গুলো দশমিক সহ রেজাল্ট দিচ্ছে এখন আপনি চাচ্ছেন দশমিক এর পর ২ বা ৩ টা ডিজিট আউটপুট দেখাবেন তার জন্য আপনি  toFixed ব্যবহার করতে হবে।
+- <span style="background-color: black; padding: 5px 10px;">**parseInt**</span> এই function এর মাধ্যমে  string number value থেকে integer এ কনভার্ট করা যায়। 
+- <span style="background-color: black; padding: 5px 10px;">**parseFloat**</span> হচ্ছে দশমিক সংখ্যা যেমন (10.5, 5.5, 2.5)
+-  <span style="background-color: black; padding: 5px 10px;">**toFixed**</span> হচ্ছে আপনি অপারেশন একটি করলেন এবং আপনার আউটপুট এ অনেক গুলো দশমিক সহ রেজাল্ট দিচ্ছে এখন আপনি চাচ্ছেন দশমিক এর পর ২ বা ৩ টা ডিজিট আউটপুট দেখাবেন তার জন্য আপনি  toFixed ব্যবহার করতে হবে।
 - Example
 ```sh
 var number = "10";
@@ -168,7 +168,7 @@ console.log(n);
 ```sh
 var tutorial = ['HTML', 'CSS', 'JavaScript', 'PHP'];
 ```
-tutorial ভেরিয়েবলে সব মানগুলি রাখা হয়েছে, একসাথে ৪টি। এখন যদি এই মানগুলি access করতে চাই তাহলে index নাম্বার দিয়ে access করতে হবে। জাভাস্ক্রিপ্ট অটোমেটিক প্রতিটি মানের জন্য একটা index নাম্বার দিয়ে রাখে (ক্রমানুসারে)। যেমন আমি যদি প্রথম মানটি দেখতে চাই তবে tutorial[0] এভাবে দিতে হবে যেমন:
+tutorial ভেরিয়েবলে সব মানগুলি রাখা হয়েছে, একসাথে ৪টি। এখন যদি এই মানগুলি access করতে চাই তাহলে index নাম্বার দিয়ে access করতে হবে। জাভাস্ক্রিপ্ট অটোমেটিক প্রতিটি মানের জন্য একটা index নাম্বার দিয়ে রাখে (ক্রমানুসারে)। যেমন আমি যদি প্রথম মানটি দেখতে চাই তবে <span style="background-color: black; padding: 5px 10px;">**tutorial[0]**</span> এভাবে দিতে হবে যেমন:
 ```sh
 console.log(tutorial[0]);
 ```
@@ -180,7 +180,7 @@ console.log(tutorial.length);
  ```sh
 tutorial[4] = "Bootstrap";
 ```
-কোন একটা উপাদানের index এর মান -1 বলতে কি বুঝায় - undefined
+কোন একটা উপাদানের index এর মান **-1** বলতে কি বুঝায় - undefined
 
 একটা Array এর মধ্যে কোন একটা উপাদান এর মান তোমাকে দেয়া আছে এখন সেটার index তুমি কিভাবে খুঁজে বের করতে পারো  তা নিচে দেওয়া আছে।
 ```sh
@@ -218,7 +218,6 @@ tutorial.shift();
 - ! logical not
 
 ### 15. তোমার কাছে ৮০০০০ হাজার টাকার বেশি হলে তুমি Mackbook কিনবে, ৬০ হাজার টাকার বেশি হলে Gaming ল্যাপটপ কিনবে, ৪০ হাজার টাকার বেশি হলে Lenovo Yoga কম্পিউটার কিনবে , ২০ হাজার টাকার বেশি হলে পুরান ল্যাপটপ কিনবে। না হয় তুমি মোবাইল দিয়ে কাজ চালাবে।
-- Example
 ```sh
 var money = 30000;
 if (money > 800000){
@@ -231,5 +230,96 @@ if (money > 800000){
     console.log("I will by a used laptop");
 }else{
     console.log("I will use Mobile Phone");
+}
+```
+
+## 16. আসকে আমার মন ভালো নেই এই কথা ৩৯ বার আউটপুট হিসেবে দেখাও।
+```sh
+for(i = 1; i <= 39; i++){
+    console.log(i + ". Ajke amr mon valo nei");
+}
+```
+## 18. While লুপ কিভাবে কাজ করে?
+- কোন একটি শর্ত বা condition পুরন না হওয়া পর্যন্ত কোন কাজ চালিয়ে যেতে জাভাস্ক্রিপ্ট এর while লুপ ব্যবহার করা হয়। এক্ষেত্রে নির্ধারিত শর্ত বা condition টি মিথ্যা অর্থাৎ false না হওয়া পর্যন্ত while লুপ টি চলতেই থাকবে।
+- উদাহরণ স্বরূপ বলা যায়, একজন শিক্ষক আপনাকে একটি অংক করতে দিল। আপনি যত বার অংকটি ভুল করছেন, ততবার শিক্ষক আপনাকে অংক টি করতে বলছে, অর্থাৎ কেবল মাত্র অংকটি করতে পারলেই আপনি এই কাজ থেকে মুক্তি পাবেন। জাভাস্ক্রিপ্ট এর while লুপ টি পুরোপুরি এই রকম।
+
+নিচে জাভাস্ক্রিপ্ট এর while লুপ এর সাধারণ সিনট্যাক্স টি দেখুন।
+```sh
+while (condition){  
+    code to be executed  
+}  
+```
+### While লুপ এর মধ্যে লুপ ভেরিয়েবল চেইঞ্জ না করলে কি সমস্যা হয়। 
+- উল্লেখ্য যে, যদি কখনও ভুল করে ভেরিয়েবল মান বৃদ্ধি না করা হয় তবে লুপটি কখনই শেষ হবে না এবং প্রোগ্রামটি ক্রাশ করবে ।
+```sh
+while (i < 10){
+    console.log(1);
+}
+```
+
+## 19. For লুপ কিভাবে কাজ করে?
+- অন্যান্য সকল প্রোগ্রামিং ভাষার মতই জাভাস্ক্রিপ্ট এর for লুপ কাজ করে। কোন প্রোগ্রামে এক বা একাধিক স্টেটমেন্ট একটা নির্দিষ্ট সংখ্যক বার পর্যন্ত কাজ করতে জাভাস্ক্রিপ্ট এর for লুপ ব্যবহার করা হয়। অর্থাৎ যে সকল ক্ষেত্রে আমরা পূর্ব বা আগে থেকেই জানি যে জাভাস্ক্রিপ্ট কোড গুলো ঠিক কত বার পুনরাবৃত্তি করবে অর্থাৎ execute বা run করবে, সে সকল ক্ষেত্রে জাভাস্ক্রিপ্ট এর for লুপ ব্যবহার করা হয়।
+
+নিচে জাভাস্ক্রিপ্ট এর for লুপ এর সাধারণ সিনট্যাক্সটি দেখুন।
+```sh
+for (initialization; test condition; iteration statement){
+    Statements to be executed if test condition is true
+}
+```
+ওপরের সিনট্যাক্সটি দেখুন, এখানে for loop টির 3টি অংশ রয়েছে, অর্থাৎ 3টি অংশ নিয়ে একটি for লুপ গঠিত হয়। এই তিনটি অংশ হল যথাক্রমে নিম্নরূপ -
+- <span style="background-color: black; padding: 5px 10px;">**initialization**</span>for loop এর এই অংশে ভেরিয়েবলের মান বা value উল্লেখ করে দিতে হয়, লুপ শুরু হবার আগেই initialization এর স্টেটমেন্ট execute হবে বা run করবে,
+- <span style="background-color: black; padding: 5px 10px;">**test condition**</span>লুপের এই অংশেই উল্লেখিত শর্ত বা condition টি সত্য বা true নাকি মিথ্যা বা false তা নির্ণয় করা হয়, যদি শর্ত বা condition সত্যি হয় তবে লুপের মাঝের কোড execute হবে, অন্যথায় প্রোগ্রাম লুপ থেকে বের হয়ে আসবে।
+- <span style="background-color: black; padding: 5px 10px;">**iteration statement**</span>counter অর্থাৎ ভেরিয়েবলের মান কোন শর্ত বা condition অনুযায়ী হ্রাস বা decrease হবে অথবা বৃদ্ধি বা increase হবে, তা জাভাস্ক্রিপ্ট for লুপের এই অংশে নির্ধারণ করা হয়।
+
+## 20. একটা কোড লিখে ৫৮ থেকে ৯৮ পর্যন্ত যত সংখ্যা আছে সেগুলাকে দেখাও?
+```sh
+for(i = 58; i <= 98; i++){
+    console.log(i);
+}
+```
+
+## 21. একটা কোড লিখে ৪১২ থেকে ৪৫৬ পর্যন্ত যত জোর সংখ্যা আছে সেগুলাকে দেখাও?
+```sh
+for(i = 412; i <= 456; i+=2){
+    console.log(i);
+}
+```
+
+## 22. একটা কোড লিখে ৫৮১ থেকে ৬২৩ পর্যন্ত যত বিজোড় সংখ্যা আছে সেগুলাকে দেখাও?
+```sh
+for(i = 581; i <= 623; i+=2){
+    console.log(i);
+}
+```
+
+## 23. While Loop আর For Loop এর মধ্যে পার্থক্য?
+- While loop will continue to loop forever as long as the statement is met
+- For loops have a fixed number of loops which are determined by the user.
+
+## 24. তুমি এতদিন যা যা জিনিস শিখছো সেগুলার নাম দিয়ে একটা array বানাও। তারপর একটা for লুপ দিয়ে সেই array এর সব উপাদান কে আউটপুট হিসেবে দেখাও।
+```sh
+var topics = ["HTMl","CSS","GitHub","Bootstrap","Tailwind CSS","Learning Javascript"];
+for (i = 0; i < topics.length; i++) {
+    console.log(topics[i]);
+}
+```
+
+## 25. তুমি এতদিন পর্যন্ত যে যে মডেলের মোবাইল ফোন ইউজ করেছো সেগুলার নাম দিয়ে একটা array বানাও। তারপর একটা while লুপ দিয়ে সেই array এর উপাদান গুলা একটা একটা করে আউটপুট হিসেবে দেখাও।
+```sh
+var mobileUse = ["Nokia","Samsung","Oppo"];
+var i = 0;
+while(i < mobileUse.length){
+    console.log(mobileUse[i]);
+    i++;
+}
+```
+
+## 26. একটা ফর লুপ চালাও। ৩০ থেকে ৮৬ পর্যন্ত। আর এই লুপ ৪৪ এ গেলে ব্রেক করবে। সেই জিনিস কোড করে দেখাও।
+```sh
+for(i = 30; i <= 86; i++){
+    console.log(i);
+    if( i === 44){
+        break;
+    }
 }
 ```
