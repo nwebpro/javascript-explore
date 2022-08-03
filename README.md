@@ -2,18 +2,18 @@
 
 [![Facebook Badge](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/abnaeembsc) [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/developernaeem/) [![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/nwebpro) [![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/developernaeem) [![Mail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abnaeem.bsc@gmail.com)
 
-## জাভাস্ক্রিপ্ট কি?
+## 1. জাভাস্ক্রিপ্ট কি?
 যদি খুব সহজে বলি তাহলে জাভাস্ক্রিপ্ট  ইন্টারনেটে ব্যবহৃত সবচেয়ে জনপ্রিয় স্ক্রিপ্টিং ল্যাংগুয়েজ। জাভাস্ক্রিপ্ট হল একটি ক্লায়েন্ট সাইড স্ক্রিপ্টিং বা ব্রাউজার স্ক্রিপ্টিং ল্যাংগুয়েজ। সেই সাথে জাভাস্ক্রিপ্ট একটি ওবজেক্ট-ওরিয়েন্টেড প্রোগ্রামিং ভাষা। এতে আছে ডেটা টাইপ, অপারেটর, গুরুত্বপূর্ণ কিছু অবজেক্ট  আর ফাংশন বা মেথড।
 
-## জাভাস্ক্রিপ্ট কিভাবে কাজ করে?
+## 2. জাভাস্ক্রিপ্ট কিভাবে কাজ করে?
 যখন JavaScript ফাইলটি ব্রাউজারে লোড করা হয়, তখন JavaScript ইঞ্জিন ফাইলের প্রতিটি লাইনকে উপরে থেকে নীচে চালাবে। এটি একটি interpreted programming language তাই সোর্স কোড এক্সিকিউশনের আগে বাইনারি কোডে কম্পাইল করা হয় না। জাভাস্ক্রিপ্ট ইঞ্জিন কোড লাইন থেকে লাইন পার্স করবে, এটিকে মেশিন কোডে রূপান্তর করবে এবং তারপর এটি কার্যকর করবে। জাভাস্ক্রিপ্ট ইঞ্জিন হল একটি কম্পিউটার প্রোগ্রাম যা জাভাস্ক্রিপ্ট কোড কার্যকর করে। জাভাস্ক্রিপ্ট ইঞ্জিনগুলি আজকের সমস্ত আধুনিক ব্রাউজারে অন্তর্নির্মিত, প্রতিটি ব্রাউজারের নিজস্ব জাভাস্ক্রিপ্ট ইঞ্জিন আছে কিন্তু সবচেয়ে পরিচিত ইঞ্জিন হল Google এর V8।
 
 যেকোনো জাভাস্ক্রিপ্ট ইঞ্জিনে সর্বদা একটি কল স্ট্যাক এবং একটি memory heap থাকে। কল স্ট্যাক হল যেখানে আমাদের কোড আসলে কার্যকর করা হয়। তারপর memory heap হল একটি অসংগঠিত মেমরি পুল যা আমাদের অ্যাপ্লিকেশনের প্রয়োজনীয় সমস্ত বস্তু সংরক্ষণ করে।
 
-## জাভাস্ক্রিপ্ট ভেরিয়েবল কি?
+## 3. জাভাস্ক্রিপ্ট ভেরিয়েবল কি?
 ভেরিয়েবল বলতে এমন কিছুকে বোঝানো হয়ে থাকে যার মান সময়ের সাথে সাথে বদলানো যায়। যার মান সময়ের সাথে সাথে বিভিন্ন ভাবে প্রভাবিত হতে পারে এবং গাণিতিক মান কিংবা কোন কিছু প্রকাশ করার ক্ষেত্রে ব্যবহার করা যেতে পারে। ভেরিয়েবল হচ্ছে কম্পিউটার মেমোরি একটি নির্দিষ্ট জায়গা যেখানে বিভিন্ন মান সংরক্ষণ করে রাখা যায় এবং প্রয়োজন অনুযায়ী ব্যবহার করা যায়।
 
-## জাভাস্ক্রিপ্ট ভেরিয়েবল কিভাবে ডিক্লেয়ার করে?
+## 4. জাভাস্ক্রিপ্ট ভেরিয়েবল কিভাবে ডিক্লেয়ার করে?
 JavaScript এ variable declare করার জন্য var কীওয়ার্ড এর মতোই let নামে আরেকটি keyword আছে , যার কাজ হচ্ছে variable টিকে function scope বা global scope এর পরিবর্তে block scope { }হিসেবে ব্যবহার করা যায়। অর্থাৎ আপনি চাইলে একই কোড পেজে অথবা একই ফাঙ্কশনের মধ্যে block দিয়ে একাধিক variable declare করতে পারেন। আর let কীওয়ার্ড টি ECMAScript 2015 অর্থাৎ ES6 থেকে JavaScript এ অন্তর্ভুক্ত হয়।
 - Variable Declare
     ```sh
@@ -39,7 +39,7 @@ JavaScript এ variable declare করার জন্য var কীওয়ার
 - first name - variable এর নাম দেওয়ার সময় দুটি শব্দের মাঝে ফাঁকা স্থান থাকলে হবে না।
 - 89firstname - variable এর নাম কোন নাম্বার দিয়ে শুরু করা যায় না।
 
-## জাভাস্ক্রিপ্ট ভেরিয়েবল এর মান কিভাবে চেইঞ্জ করে বা আপডেট করে?
+## 5. জাভাস্ক্রিপ্ট ভেরিয়েবল এর মান কিভাবে চেইঞ্জ করে বা আপডেট করে?
 ভ্যারিয়েবল এর ম্যান চেঞ্জ করতে হলে আপনাকে প্রথমে একটি ভ্যারিয়েবল ডিক্লেয়ার করতে হবে যেমন:
 - Variable Value
     ```sh
@@ -51,4 +51,106 @@ JavaScript এ variable declare করার জন্য var কীওয়ার
     name = "Naeem";
     ```
 
-## জাভাস্ক্রিপ্ট কি কি ধরনের ভেরিয়েবল হয়, সেগুলা কি কি?
+## 6. জাভাস্ক্রিপ্ট কি কি ধরনের ভেরিয়েবল হয়, সেগুলা কি কি?
+জাভাস্ক্রিপ্ট এর কি কি টাইপ এর ভ্যারিয়েবল হয় তার একটি লিস্ট নিচে দেওয়া হল।
+- Type of Variable
+    ```sh
+    Number = 100, 200,[int = 10, 12,][float= 10.2, 30.5];
+    string = "Ab Naeem";
+    char = 'a', 'b';
+    boleean = true/false;
+    ```
+এখন আপনি একটি ভেরিয়েবল ডিক্লেয়ার করেছেন আপনি চাচ্ছেন আপনি যেই ভেরিয়েবল ডিক্লেয়ার করেছেন তার টাইপ জানতে যে এইটা কি টাইপ এর ভেরিয়েবল এইটা কিভাবে বের করবেন তা নিচে দেওয়া আছে।
+- Find out type of a variable
+    ```sh
+    var x = 12345;
+    console.log(typeof x);
+    ```
+
+## 7. জাভাস্ক্রিপ এ primitive and non primitive data types কি কি ?
+একটি ভ্যারিয়বেল যেকোনো কীওয়ার্ড (keyword) দিয়ে শুরু হতে পারে যেমন - var , let ও const তার ভ্যালুকে Data Type বলা হয় ।
+
+একটি ভ্যারিয়বেলে (variable) অনেক প্রকার ডাটা টাইপ (data type) লিখতে পারি । Data Type মূলত দুই প্রকার Primitive Non primitive
+
+### Primitive Data Type
+- String
+- Number
+- Bollean
+- null
+- Undefined
+- Example
+    ```sh
+    var name = "Ab Naeem";
+    var number = 121;
+    var x = true;
+    var x = null;
+    var x;
+    ```
+
+### Non-Primitive Data Type
+- Object
+- Array
+- Example
+    ```sh
+    var mycar = new Car();
+    var z = new Array("Hi!");
+    ```
+
+## 8. The Naming Convention of জাভাস্ক্রিপ্ট ভ্যারিয়বেল?
+- Example
+    ```sh
+    var firstName = "Camel Case Variable";
+    var FirstName = "Pascal Case Variable";
+    var first_name = "Snake Case Variable";
+    var first-name = "Kebab Case Variable";
+    ```
+
+## 9. দুইটা ভ্যারিয়বেল এর মধ্যে অপারেশন?
+### Operator
+- Addition(+)
+- Subtraction (-)
+- Multiplication (*)
+- Division (/)
+- Modulus/Remainder (%)
+- Example
+    ```sh
+    var x = 20;var y = 30; console.log(x + y);
+    var x = 20;var y = 30; console.log(x - y);
+    var x = 20;var y = 30; console.log(x * y);
+    var x = 20;var y = 30; console.log(x / y);
+    var x = 20;var y = 5; console.log(x % y);
+    ```
+
+## 10. Short Hand Note
+- +=  Increments then assigns
+- -=  Decrements then assigns
+- *=  Multiplies then assigns
+- /=  Divides then assigns
+- %=  Modulus then assigns
+- Example
+    ```sh
+    var x = 20;x += 5; console.log(x);
+    var x = 20;x -= 5; console.log(x);
+    var x = 20;x *= 5; console.log(x);
+    var x = 20;x /= 5; console.log(x);
+    var x = 20;x %= 5; console.log(x);
+    ```
+
+## 11. ++ এবং -- এর কাজ কি ?
+জাভাস্ক্রিপ্ট এর মধ্যে (++) এর মাধ্যমে একটি অপারেশন এর মধ্যে ১ করে বাড়ানো হয়। এবং (--) এর মাধ্যমে ১ করে কমানো হয় নিচে একটি এক্সাম্পল দেওয়া আছে। 
+- Example
+    ```sh
+    var x = 10;x++;console.log(x);
+    var x = 10;x--;console.log(x);
+    ```
+
+## 12. parseInt, parseFloat, toFixed এইগুলা কি করে?
+- parseInt হচ্ছে পূর্ণ সংখ্যা যেমন (10, 20, 30)
+- parseFloat হচ্ছে দশমিক সংখ্যা যেমন (10.5, 5.5, 2.5)
+-  toFixed হচ্ছে আপনি অপারেশন একটি করলেন এবং আপনার আউটপুট এ অনেক গুলো দশমিক সহ রেজাল্ট দিচ্ছে এখন আপনি চাচ্ছেন দশমিক এর পর ২ বা ৩ টা ডিজিট আউটপুট দেখাবেন তার জন্য আপনি  toFixed ব্যবহার করতে হবে।
+- Example
+    ```sh
+    var number = 50.24367844;
+    var n = number.toFixed(2);
+    console.log(n);
+    ```
