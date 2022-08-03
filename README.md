@@ -267,9 +267,9 @@ for (initialization; test condition; iteration statement){
 }
 ```
 ওপরের সিনট্যাক্সটি দেখুন, এখানে for loop টির 3টি অংশ রয়েছে, অর্থাৎ 3টি অংশ নিয়ে একটি for লুপ গঠিত হয়। এই তিনটি অংশ হল যথাক্রমে নিম্নরূপ -
-- <span style="background-color: black; padding: 5px 10px;">**initialization**</span>for loop এর এই অংশে ভেরিয়েবলের মান বা value উল্লেখ করে দিতে হয়, লুপ শুরু হবার আগেই initialization এর স্টেটমেন্ট execute হবে বা run করবে,
-- <span style="background-color: black; padding: 5px 10px;">**test condition**</span>লুপের এই অংশেই উল্লেখিত শর্ত বা condition টি সত্য বা true নাকি মিথ্যা বা false তা নির্ণয় করা হয়, যদি শর্ত বা condition সত্যি হয় তবে লুপের মাঝের কোড execute হবে, অন্যথায় প্রোগ্রাম লুপ থেকে বের হয়ে আসবে।
-- <span style="background-color: black; padding: 5px 10px;">**iteration statement**</span>counter অর্থাৎ ভেরিয়েবলের মান কোন শর্ত বা condition অনুযায়ী হ্রাস বা decrease হবে অথবা বৃদ্ধি বা increase হবে, তা জাভাস্ক্রিপ্ট for লুপের এই অংশে নির্ধারণ করা হয়।
+- <span style="background-color: black; padding: 5px 10px;">**initialization**</span> for loop এর এই অংশে ভেরিয়েবলের মান বা value উল্লেখ করে দিতে হয়, লুপ শুরু হবার আগেই initialization এর স্টেটমেন্ট execute হবে বা run করবে,
+- <span style="background-color: black; padding: 5px 10px;">**test condition**</span> লুপের এই অংশেই উল্লেখিত শর্ত বা condition টি সত্য বা true নাকি মিথ্যা বা false তা নির্ণয় করা হয়, যদি শর্ত বা condition সত্যি হয় তবে লুপের মাঝের কোড execute হবে, অন্যথায় প্রোগ্রাম লুপ থেকে বের হয়ে আসবে।
+- <span style="background-color: black; padding: 5px 10px;">**iteration statement**</span> counter অর্থাৎ ভেরিয়েবলের মান কোন শর্ত বা condition অনুযায়ী হ্রাস বা decrease হবে অথবা বৃদ্ধি বা increase হবে, তা জাভাস্ক্রিপ্ট for লুপের এই অংশে নির্ধারণ করা হয়।
 
 ## 20. একটা কোড লিখে ৫৮ থেকে ৯৮ পর্যন্ত যত সংখ্যা আছে সেগুলাকে দেখাও?
 ```sh
