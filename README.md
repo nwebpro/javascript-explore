@@ -318,7 +318,7 @@ while(i < mobileUse.length){
 ```sh
 for(i = 30; i <= 86; i++){
     console.log(i);
-    if( i === 44){
+    if( i > 44){
         break;
     }
 }
